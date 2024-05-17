@@ -3,7 +3,7 @@ package org.lessons.elijah;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ciclabile {
+public class Ciclabile implements ICiclabile {
 	private int cicloCounter = 0;
 	private Integer[] array;
 	private List<Integer> arrayWithoutConstructor = new ArrayList<Integer>();
